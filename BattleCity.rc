@@ -1,0 +1,130 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// MAP
+//
+
+IDR_MAP1                MAP     DISCARDABLE     "resource\\terrain\\level1.map"
+IDR_MAP2                MAP     DISCARDABLE     "resource\\terrain\\level2.map"
+IDR_MAP3                MAP     DISCARDABLE     "resource\\terrain\\level3.map"
+IDR_MAP4                MAP     DISCARDABLE     "resource\\terrain\\level4.map"
+IDR_MAP5                MAP     DISCARDABLE     "resource\\terrain\\level5.map"
+IDR_MAP6                MAP     DISCARDABLE     "resource\\terrain\\level6.map"
+IDR_MAP7                MAP     DISCARDABLE     "resource\\terrain\\level7.map"
+IDR_MAP8                MAP     DISCARDABLE     "resource\\terrain\\level8.map"
+IDR_MAP9                MAP     DISCARDABLE     "resource\\terrain\\level9.map"
+IDR_MAP10               MAP     DISCARDABLE     "resource\\terrain\\level10.map"
+IDR_MAP11               MAP     DISCARDABLE     "resource\\terrain\\level11.map"
+IDR_MAP12               MAP     DISCARDABLE     "resource\\terrain\\level12.map"
+IDR_MAP13               MAP     DISCARDABLE     "resource\\terrain\\level13.map"
+IDR_MAP14               MAP     DISCARDABLE     "resource\\terrain\\level14.map"
+IDR_MAP15               MAP     DISCARDABLE     "resource\\terrain\\level15.map"
+IDR_MAP16               MAP     DISCARDABLE     "resource\\terrain\\level16.map"
+IDR_MAP17               MAP     DISCARDABLE     "resource\\terrain\\level17.map"
+IDR_MAP18               MAP     DISCARDABLE     "resource\\terrain\\level18.map"
+IDR_MAP19               MAP     DISCARDABLE     "resource\\terrain\\level19.map"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_TILE                BITMAP  DISCARDABLE     "resource\\graphics\\tile.bmp"
+IDB_SPLASH              BITMAP  DISCARDABLE     "resource\\graphics\\splash.bmp"
+IDB_SHIELD              BITMAP  DISCARDABLE     "resource\\graphics\\shield.bmp"
+IDB_PLAYER2             BITMAP  DISCARDABLE     "resource\\graphics\\player2.bmp"
+IDB_PLAYER1             BITMAP  DISCARDABLE     "resource\\graphics\\player1.bmp"
+IDB_NUM                 BITMAP  DISCARDABLE     "resource\\graphics\\num.bmp"
+IDB_MISC                BITMAP  DISCARDABLE     "resource\\graphics\\misc.bmp"
+IDB_GAMEOVER            BITMAP  DISCARDABLE     "resource\\graphics\\gameover.bmp"
+IDB_FLAG                BITMAP  DISCARDABLE     "resource\\graphics\\flag.bmp"
+IDB_EXPLODE2            BITMAP  DISCARDABLE     "resource\\graphics\\explode2.bmp"
+IDB_EXPLODE1            BITMAP  DISCARDABLE     "resource\\graphics\\explode1.bmp"
+IDB_ENEMY               BITMAP  DISCARDABLE     "resource\\graphics\\enemy.bmp"
+IDB_BULLET              BITMAP  DISCARDABLE     "resource\\graphics\\bullet.bmp"
+IDB_BORE                BITMAP  DISCARDABLE     "resource\\graphics\\bore.bmp"
+IDB_BONUS               BITMAP  DISCARDABLE     "resource\\graphics\\bonus.bmp"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_TANK                ICON    DISCARDABLE     "resource\\icon\\tank.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

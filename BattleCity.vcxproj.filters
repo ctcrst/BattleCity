@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="gt_engine">
+      <UniqueIdentifier>{292604d9-342a-4cf9-80f9-6d0ac7ff7619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gt_engine\render2d">
+      <UniqueIdentifier>{61537e32-bdc0-4f13-a99b-e841a4cf82eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gt_engine\net">
+      <UniqueIdentifier>{09098ec7-f9ec-4cb0-98f8-2d6a2bc9f9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gt_engine\debug">
+      <UniqueIdentifier>{926e7e8a-5f28-42d4-9924-62bef14586e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gt_engine\mem">
+      <UniqueIdentifier>{cfe685dd-cf9d-4429-bbb3-138f716b6e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gt_engine\util">
+      <UniqueIdentifier>{8d7298f1-464d-4eb7-ae6d-002b4e44f3b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gt_engine\audio">
+      <UniqueIdentifier>{8d28e27a-5dd2-449f-b182-9d2a50485208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gt_engine\input">
+      <UniqueIdentifier>{5798a786-396c-402f-94f1-9d023850ec26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{0d617c38-b80e-4be6-a9ae-0a67e5d1d53d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resmgr">
+      <UniqueIdentifier>{d502c9dc-f2b3-4553-adfa-c3f2f51982aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{38001845-d749-4e00-a6aa-7fe5a590be8a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="engine\render2D\Display.cpp">
+      <Filter>gt_engine\render2d</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\net\msgserv.cpp">
+      <Filter>gt_engine\net</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\net\socket.cpp">
+      <Filter>gt_engine\net</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\debug\debug.cpp">
+      <Filter>gt_engine\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\debug\log.cpp">
+      <Filter>gt_engine\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\mem\memmgr.cpp">
+      <Filter>gt_engine\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\util\Util.cpp">
+      <Filter>gt_engine\util</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\util\worldobj.cpp">
+      <Filter>gt_engine\util</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\audio\Sound.cpp">
+      <Filter>gt_engine\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\audio\wavread.cpp">
+      <Filter>gt_engine\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\input\Input.cpp">
+      <Filter>gt_engine\input</Filter>
+    </ClCompile>
+    <ClCompile Include="gApp.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="gGame.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="gPlane.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="gSprite.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="gTitle.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="netSession.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="ResMgr.cpp">
+      <Filter>resmgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="engine\render2D\Display.h">
+      <Filter>gt_engine\render2d</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\net\msgserv.h">
+      <Filter>gt_engine\net</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\net\socket.h">
+      <Filter>gt_engine\net</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\net\SocketDef.h">
+      <Filter>gt_engine\net</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\debug\debug.h">
+      <Filter>gt_engine\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\debug\log.h">
+      <Filter>gt_engine\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\mem\memmgr.h">
+      <Filter>gt_engine\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\util\SFPClass.h">
+      <Filter>gt_engine\util</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\util\Util.h">
+      <Filter>gt_engine\util</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\util\worldobj.h">
+      <Filter>gt_engine\util</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\audio\Sound.h">
+      <Filter>gt_engine\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\audio\wavread.h">
+      <Filter>gt_engine\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\input\Input.h">
+      <Filter>gt_engine\input</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\engine.h">
+      <Filter>gt_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\gtdefine.h">
+      <Filter>gt_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="gApp.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="gDefine.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="gGame.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="gPlane.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="gSprite.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="gTitle.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="netSession.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="ResMgr.h">
+      <Filter>resmgr</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>resmgr</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\util\emap.h">
+      <Filter>gt_engine\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BattleCity.rc">
+      <Filter>resmgr</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="resource\terrain\level1.map">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource\terrain\level10.map">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource\terrain\level11.map">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource\terrain\level12.map">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource\terrain\level13.map">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource\terrain\level14.map">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource\terrain\level15.map">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource\terrain\level16.map">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource\terrain\level17.map">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource\terrain\level18.map">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource\terrain\level19.map">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource\terrain\level2.map">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource\terrain\level3.map">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource\terrain\level4.map">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource\terrain\level5.map">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource\terrain\level6.map">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource\terrain\level7.map">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource\terrain\level8.map">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource\terrain\level9.map">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource\icon\tank.ico">
+      <Filter>resource</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource\graphics\tile.bmp">
+      <Filter>resource</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
